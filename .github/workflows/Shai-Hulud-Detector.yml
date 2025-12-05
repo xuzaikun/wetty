@@ -1,6 +1,8 @@
+name: security-scan
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   test:
